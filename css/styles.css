@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  display: flex;
+  background-color: #F6F6F6;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  height: 15vh;
+}
+main{
+  height: 85vh;
+}
+div{
+  text-align: center;
+}
+.bluelink{
+  color: #A5C9CA;
+}
+a{
+  color: #73777B;
+  margin: 5px;
+}
+.indexcontent{
+  background-image: url(https://images.pexels.com/photos/868097/pexels-photo-868097.jpeg?cs=srgb&dl=pexels-oziel-g%C3%B3mez-868097.jpg&fm=jpg);
+  background-size: cover;
+}
+.bodyservices{
+  background-image: url(https://images.pexels.com/photos/1315656/pexels-photo-1315656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-position: top;
+
+}
+button{
+  background-color: black; 
+  color:white; 
+  padding: 20px 30px;
+  border: none;
+}
+button:hover{
+  background-color: white;
+  color:black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.chat{
+  padding: 10px 30px;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.readmore{
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: bottom;
+}
+div.services{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+div.about {
+  height: 100%;
+  width: 50%;
+}
+div.servicesoutline{
+  /* border: 1px solid black; */
+  width: 80%;
+}
+div.firstservices
+{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+div.secondservices
+{
+  height: 10vh;
+  display: flex;
+  justify-content:center;
+}
+div.thirdservices
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  height: 45vh;
+}
+div.servicescourse{
+  /* border: 1px solid black; */
+  width: 20%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:center;
+  padding : 10px;
+}
+div.servicescourse >p{
+  margin: 0;
+  font-size: 1em;
+}
+button.servicescourses{
+  padding: 10px 20px;
+  width: 70%;
+}
+.buttonservices{
+  background-color: transparent;
+  font-size: 20px;
+  border-bottom: 3px solid grey;
+  margin:0;
+  cursor: pointer;
+}
+.buttonservices:hover {
+  border:0;
+  background-color:transparent;
+  border-bottom: 4px solid black;
+}
